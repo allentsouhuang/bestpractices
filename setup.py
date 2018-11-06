@@ -38,9 +38,11 @@ setup(
     extras_require={
         'dev': [
             'pytest>=3',
+            'pytest-sugar',
             'coverage',
             'tox',
             'sphinx',
+            "pre-commit",
         ],
         'docs': [
             'sphinx',
